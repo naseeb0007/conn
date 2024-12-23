@@ -1,8 +1,11 @@
 import React from 'react';
 import Doctor3 from "../assets/Bannerdown.jpeg";
 import { FaUserGraduate, FaChalkboardTeacher, FaRocketchat } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 const Hindi = () => {
+  const navigate = useNavigate(); // Initialize navigate function
+
   return (
     <div>
       {/* Banner Section */}
@@ -32,7 +35,10 @@ const Hindi = () => {
           <p className="text-center text-gray-600 mb-4">
             Start learning Hindi from the basics. Learn essential words, phrases, and pronunciation.
           </p>
-          <button onClick={() => window.location.href = "/begginer"} className="w-full py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition">
+          <button
+            onClick={() => navigate("/begginer")} // Use navigate for navigation
+            className="w-full py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition"
+          >
             Start Learning
           </button>
         </div>
@@ -46,7 +52,10 @@ const Hindi = () => {
           <p className="text-center text-gray-600 mb-4">
             Improve your Hindi skills. Learn more complex grammar, vocabulary, and sentence structure.
           </p>
-          <button onClick={() => window.location.href = "/Intermediate"} className="w-full py-3 bg-green-600 text-white font-semibold rounded-md hover:bg-green-700 transition">
+          <button
+            onClick={() => navigate("/Intermediate")} // Use navigate for navigation
+            className="w-full py-3 bg-green-600 text-white font-semibold rounded-md hover:bg-green-700 transition"
+          >
             Start Learning
           </button>
         </div>
@@ -60,7 +69,10 @@ const Hindi = () => {
           <p className="text-center text-gray-600 mb-4">
             Master advanced Hindi. Understand complex language aspects, idioms, and cultural expressions.
           </p>
-          <button onClick={() => window.location.href = "/advance"} className="w-full py-3 bg-red-600 text-white font-semibold rounded-md hover:bg-red-700 transition">
+          <button
+            onClick={() => navigate("/advance")} // Use navigate for navigation
+            className="w-full py-3 bg-red-600 text-white font-semibold rounded-md hover:bg-red-700 transition"
+          >
             Start Learning
           </button>
         </div>

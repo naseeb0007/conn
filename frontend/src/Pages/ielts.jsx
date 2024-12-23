@@ -1,7 +1,9 @@
 import React from 'react';
 import IELTSImage from "../assets/ieltsreal2.jpeg"; // Import the image
+import { useNavigate } from 'react-router-dom';
 
 const Ielts = () => {
+  const naviagte = useNavigate();
   return (
     <div className="bg-white">
 
@@ -127,7 +129,7 @@ const Ielts = () => {
       </div>
       {/* Contact Button Section */}
       <div className="px-10 py-10 flex justify-center">
-        <button onClick={() => window.location.href = '/contact'} className="bg-red-600 text-white text-lg font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-300 hover:bg-red-700">
+        <button onClick={() => naviagte("/contact")} className="bg-red-600 text-white text-lg font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-300 hover:bg-red-700">
           Contact Us
         </button>
       </div>
