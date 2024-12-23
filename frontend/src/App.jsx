@@ -18,7 +18,7 @@ import Achievment from './Pages/Achievments';
 
 import Director from './Pages/Director';
 import Hindi from './Pages/hindi';
-import Ielts from './Pages/Ielts';
+import Ielts from './Pages/ielts';
 import Begginer from './Cources/Begginer';
 import Intermediate from './Cources/Intermediat';
 import Advance from './Cources/Advance';
