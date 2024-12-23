@@ -1,6 +1,6 @@
 import React from "react";
 import Doctor3 from "../assets/Bannerdown.jpeg";
-import Hindi1 from "../assets/Hindi1.jpeg";
+import Hindi1 from "../assets/hindi1.jpeg";
 import { useNavigate } from "react-router-dom";
 
 const Beginner = () => {
