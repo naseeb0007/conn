@@ -1,6 +1,6 @@
 import React from 'react';
 import Doctor3 from "../assets/univ.jpeg";
-import Doctor2 from "../assets/uni.jpeg";
+import Doctor2 from "../assets/bk.jpeg";
 
 const Translation = () => {
   return (

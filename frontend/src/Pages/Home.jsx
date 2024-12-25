@@ -5,13 +5,13 @@ import Student2 from "../assets/st1.jpeg";
 import Student3 from "../assets/student3.jpeg";
 import Studentdown from "../assets/Bannerdown.jpeg";
 import { FaClock, FaCertificate, FaLanguage } from 'react-icons/fa';
-import studentsit from "../assets/studentsit.jpeg";
+import studentsit from "../assets/sg.jpeg";
 
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa"; 
 import { Link } from 'react-router-dom'; 
-import Banner1 from "../assets/hindi.jpeg";
+import Banner1 from "../assets/bn.jpeg";
 
-import Banner2 from "../assets/ieltsh.jpeg";
+import Banner2 from "../assets/bn1.jpeg";
 
 
 const Home = () => {
@@ -143,7 +143,7 @@ useEffect(() => {
   {currentBanner === 0 && (
     <div className="relative">
       <div
-        className="w-full h-64 sm:h-screen bg-cover bg-center"
+        className="w-full h-34 sm:h-screen bg-cover bg-center"
         style={{ backgroundImage: `url(${banners[0].image})` }}
       >
         {/* Banner image for small screens */}
@@ -387,21 +387,21 @@ useEffect(() => {
     />
   </div>
 
-  {/* Bottom Section - Text */}
-  <div className="w-full md:w-1/2 text-gray-700">
-    <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4 md:mb-6 text-center md:text-left">
-      The Heritage Difference
-    </h2>
-    <p className="text-justify mb-4 md:mb-8 text-base md:text-lg leading-relaxed">
-      At Heritage, we recognize that our students want more than to simply learn a language. They want to connect with people across the world, compete in a global marketplace, or simply navigate the local bazaar on their own. That’s why all of our classes are focused on teaching you to truly engage with the language in a way that will give you the confidence to use it outside the classroom.
-    </p>
-    <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4 md:mb-6 text-center md:text-left">
-      Our Mission
-    </h2>
-    <p className="text-justify text-base md:text-lg leading-relaxed">
-      To be a bridge that connects India and the world by providing culturally relevant and innovative language learning, equipping students to communicate confidently and succeed in their individual goals.
-    </p>
-  </div>
+ {/* Bottom Section - Text */}
+<div className="w-full md:w-1/2 text-gray-700">
+  <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4 md:mb-6 text-center md:text-left">
+    The Covenant Education Difference
+  </h2>
+  <p className="text-justify mb-4 md:mb-8 text-base md:text-lg leading-relaxed">
+    At Covenant Education, we recognize that our students want more than to simply learn a language. They want to connect with people across the world, compete in a global marketplace, or simply navigate the local bazaar on their own. That’s why all of our classes are focused on teaching you to truly engage with the language in a way that will give you the confidence to use it outside the classroom.
+  </p>
+  <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4 md:mb-6 text-center md:text-left">
+    Our Mission
+  </h2>
+  <p className="text-justify text-base md:text-lg leading-relaxed">
+    To be a bridge that connects India and the world by providing culturally relevant and innovative language learning, equipping students to communicate confidently and succeed in their individual goals.
+  </p>
+</div>
 </div>
 
 

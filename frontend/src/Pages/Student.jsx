@@ -1,6 +1,6 @@
 import React from 'react';
 import Doctor3 from "../assets/Bannerdown.jpeg";
-import Doctor2 from "../assets/un.jpeg";
+import Doctor2 from "../assets/bk1.jpeg";
 
 const Student = () => {
   return (

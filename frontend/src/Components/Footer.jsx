@@ -41,10 +41,13 @@ const Footer = () => {
           <h2 className="text-lg font-semibold mb-4 text-red-600">COURSES</h2>
           <ul className="space-y-3">
             <li>
-              <a href="ielts" className="hover:text-gray-300">IELTS</a>
+              <a href="hindi" className="hover:text-gray-300">Hindi</a>
             </li>
             <li>
-              <a href="hindi" className="hover:text-gray-300">Hindi</a>
+              <a href="urdu" className="hover:text-gray-300">Urdu</a>
+            </li>
+            <li>
+              <a href="ielts" className="hover:text-gray-300">IELTS</a>
             </li>
           </ul>
         </div>
@@ -57,13 +60,13 @@ const Footer = () => {
             &copy; 2024 DhiWise PVT. LTD. All rights reserved.
           </p>
           <div className="flex justify-center space-x-4">
-            <a href="#" className="text-gray-400 hover:text-gray-100">
+            <a href="https://www.facebook.com/profile.php?id=100076156932259&mibextid=ZbWKwL" className="text-gray-400 hover:text-gray-100">
               <FaFacebook size={20} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-100">
+            <a href="https://www.instagram.com/covenanteducation?igsh=MnB1c2NlODgwbWg2" className="text-gray-400 hover:text-gray-100">
               <FaInstagram size={20} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-100">
+            <a href="https://youtube.com/@covenanteducation3561?si=3AAWkc3HlVw8yKlc" className="text-gray-400 hover:text-gray-100">
               <FaYoutube size={20} />
             </a>
           </div>

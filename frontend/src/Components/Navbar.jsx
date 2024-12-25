@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { IoCloseSharp } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io"; // Arrow icon
 import assets from "../assets/cov.jpeg";
+import { FaInstagram, FaFacebook, FaYoutube, FaBook, FaGlobe } from "react-icons/fa";
 
 function Navbar() {
   const [show, setShow] = useState(false); // For toggling mobile menu
@@ -17,34 +18,66 @@ function Navbar() {
 
   return (
     <nav className="shadow-[0_10px_30px_rgba(0,0,0,0.3)] py-4 bg-slate-800 text-white w-full z-50 w-full ">
-      {/* Upper Navbar: Contact, Email */}
-      <div className="text-black hidden md:block">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="flex items-center ml-auto space-x-4">
-            <span className="text-white flex items-center space-x-1  hover:rounded-lg hover:px-2 hover:py-1 transition-all duration-300 ease-in-out">
-              +91 9335920991
-            </span>
-            <span className="text-white flex  items-center space-x-1  hover:rounded-lg hover:px-2 hover:py-1 transition-all duration-300 ease-in-out">
-              irwinamitdas@gmail.com
-            </span>
-          </div>
-        </div>
-      </div>
+      {/* Upper Navbar: Contact, Email, and Social Icons */}
+<div className="text-black hidden md:block">
+  <div className="container mx-auto flex justify-between items-center">
+    {/* Contact and Email */}
+    <div className="flex items-center ml-auto space-x-4">
+      <span className="text-white flex items-center space-x-1 hover:rounded-lg hover:px-2 hover:py-1 transition-all duration-300 ease-in-out">
+        +91 9335920991
+      </span>
+      <span className="text-white flex items-center space-x-1 hover:rounded-lg hover:px-2 hover:py-1 transition-all duration-300 ease-in-out">
+        irwinamitdas@gmail.com
+      </span>
+    </div>
+
+    {/* Social Media Icons */}
+    <div className="flex items-center space-x-4 ml-4">
+      {/* YouTube */}
+      <a
+        href="https://youtube.com/@covenanteducation3561?si=3AAWkc3HlVw8yKlc"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-red-600 hover:text-red-400 transition-all duration-300 ease-in-out"
+      >
+        <FaYoutube className="text-2xl" />
+      </a>
+      {/* Facebook */}
+      <a
+        href="https://www.facebook.com/profile.php?id=100076156932259&mibextid=ZbWKwL"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:text-blue-400 transition-all duration-300 ease-in-out"
+      >
+        <FaFacebook className="text-2xl" />
+      </a>
+      {/* Instagram */}
+      <a
+        href="https://www.instagram.com/covenanteducation?igsh=MnB1c2NlODgwbWg2"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-pink-500 hover:text-pink-300 transition-all duration-300 ease-in-out"
+      >
+        <FaInstagram className="text-2xl" />
+      </a>
+    </div>
+  </div>
+</div>
 
       {/* Main Navbar (Logo and Menu) */}
       <div className="flex items-center justify-between container mx-auto mt-2">
-        <a href="/">
-          <div className="flex font-bold">
-            <img src={assets} alt="Logo" className="w-[250px] h-[64px]" />
-          </div>
-        </a>
+      <a href="/">
+  <div className="flex w-full justify-start sm:justify-center items-center">
+    <img src={assets} alt="Logo" className="w-[250px] h-[64px]" />
+  </div>
+</a>
 
         {/* Mobile Menu Toggle Icon */}
         <div className="md:hidden" onClick={toggleMobileMenu}>
           {show ? (
-            <IoCloseSharp size={24} className="text-black" />
+            <IoCloseSharp size={30} className="text-white font-bold text-3xl" />
           ) : (
-            <span className="text-black">☰</span>
+            <span className="text-white font-bold text-3xl">☰</span>
           )}
         </div>
 
@@ -99,6 +132,12 @@ function Navbar() {
                 className="py-2 text-white flex  items-center space-x-2  hover:rounded-lg  transition-all duration-300 ease-in-out"
               >
                 Hindi
+              </Link>
+              <Link
+                to="/urdu"
+                className="py-2 text-white flex  items-center space-x-2  hover:rounded-lg  transition-all duration-300 ease-in-out"
+              >
+                Urdu
               </Link>
               <Link
                 to="/ielts"

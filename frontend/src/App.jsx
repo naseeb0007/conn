@@ -21,6 +21,7 @@ import Hindi from './Pages/hindi';
 import Ielts from './Pages/ielts';
 import Begginer from './Cources/Begginer';
 import Intermediate from './Cources/Intermediat';
+import Urdu from './Cources/urdu';
 import Advance from './Cources/Advance';
 
 import Translation from './Pages/Translation';
@@ -67,6 +68,7 @@ const App = () => {
           <Route path="/begginer" element={<Begginer />} />
           <Route path="/Intermediate" element={<Intermediate />} />
           <Route path="/advance" element={<Advance />} />
+          <Route path="/urdu" element={<Urdu />} />
           
           
           <Route path="/student" element={<Student />} />
