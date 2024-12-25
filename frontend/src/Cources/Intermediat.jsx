@@ -1,6 +1,6 @@
 import React from "react";
 import Doctor3 from "../assets/Bannerdown.jpeg";
-import HindiIntermediate from "../assets/Hindi2.jpeg"; // Add the appropriate image for intermediate course
+import HindiIntermediate from "../assets/sg3.jpeg"; // Add the appropriate image for intermediate course
 import { useNavigate } from "react-router-dom";
 
 const Intermediate = () => {

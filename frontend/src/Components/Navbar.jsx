@@ -337,6 +337,12 @@ function Navbar() {
                     Hindi
                   </Link>
                   <Link
+                    to="/urdu"
+                    className="block text-black-400 font-semibold py-2 px-4 hover:bg-gray-200 hover:text-red-500"
+                  >
+                    Urdu
+                  </Link>
+                  <Link
                     to="/ielts"
                     className="block text-black-400 font-semibold py-2 px-4 hover:bg-gray-200 hover:text-red-500"
                   >

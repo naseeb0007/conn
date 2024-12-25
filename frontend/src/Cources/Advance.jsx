@@ -1,6 +1,6 @@
 import React from "react";
 import Doctor3 from "../assets/Bannerdown.jpeg";
-import HindiAdvanced from "../assets/HindiAdvanced.jpeg"; // Add the appropriate image for advanced course
+import HindiAdvanced from "../assets/sg.jpeg"; // Add the appropriate image for advanced course
 import { useNavigate } from "react-router-dom";
 
 const Advanced = () => {

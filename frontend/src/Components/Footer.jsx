@@ -2,6 +2,7 @@ import React from "react";
 import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md";
 import assets from "../assets/cov.jpeg";
+import { Link } from "react-router-dom"; // Import Link for navigation
 
 const Footer = () => {
   return (
@@ -41,13 +42,13 @@ const Footer = () => {
           <h2 className="text-lg font-semibold mb-4 text-red-600">COURSES</h2>
           <ul className="space-y-3">
             <li>
-              <a href="hindi" className="hover:text-gray-300">Hindi</a>
+              <Link to="/hindi" className="hover:text-gray-300">Hindi</Link>
             </li>
             <li>
-              <a href="urdu" className="hover:text-gray-300">Urdu</a>
+              <Link to="/urdu" className="hover:text-gray-300">Urdu</Link>
             </li>
             <li>
-              <a href="ielts" className="hover:text-gray-300">IELTS</a>
+              <Link to="/ielts" className="hover:text-gray-300">IELTS</Link>
             </li>
           </ul>
         </div>
