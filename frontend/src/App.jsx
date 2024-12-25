@@ -33,7 +33,7 @@ const App = () => {
     <HelmetProvider>
       {/* Global metadata via Helmet */}
       <Helmet>
-        <title>Bobby IELTS - Professional Training</title>
+        <title>Covenat Education</title>
         <meta
           name="description"
           content="Bobby IELTS provides comprehensive training for IELTS, OET, NCLEX, OSCE, and study abroad programs. Unlock your potential today."
@@ -42,7 +42,7 @@ const App = () => {
           name="keywords"
           content="IELTS, OET, NCLEX, OSCE, Bobby IELTS, training, study abroad, nurse training"
         />
-        <meta name="author" content="Bobby IELTS" />
+        <meta name="author" content="Covenat Education" />
       </Helmet>
 
       <Router>
