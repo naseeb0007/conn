@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md";
-import assets from "../assets/cov.jpeg";
+import assets from "../assets/covv.png";
 import { Link } from "react-router-dom"; // Import Link for navigation
 
 const Footer = () => {

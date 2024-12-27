@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { IoCloseSharp } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io"; // Arrow icon
-import assets from "../assets/cov.jpeg";
+import assets from "../assets/covv.png";
 import { FaInstagram, FaFacebook, FaYoutube, FaBook, FaGlobe } from "react-icons/fa";
 
 function Navbar() {
